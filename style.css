@@ -5,3 +5,7 @@
 .hide{
 	display: none;
 }
+.footer{
+	position: sticky;
+	object-position: bottom;
+}
