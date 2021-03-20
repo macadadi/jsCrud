@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+	<title>employee management</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+<center><h1>Javascrip Crud</h1>1</center></div>
+	<div class="body">
+		<form onsubmit="event.preventDefault();formSubmit()" >
+			<div>
+				<label>Full Name *</label>
+				<label class="validationerror hide" id="fullNameValidationError">This field is required </label>
+				<input type="text" name="fullname" id="fullName">
+			</div>
+			<div>
+				<label>Email Id *</label>
+				
+				<input type="text" name="email" id="email">
+			</div>
+			<div>
+				<label>Salary</label>
+				
+				<input type="text" name="salary" id="salary">
+			</div>
+			<div>
+				<label>city *</label>
+				
+				<input type="text" name="city" id="city">
+			</div>
+			<input type="submit" value="submit">
+		</form>
+		<hr>
+		<center>
+		<table>
+			<thead>
+				<tr>
+					<th>Full Name</th>
+					<th>Email</th>
+					<th>Salary</th>
+					<th>City</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+		</table>
+		</center>
+	</div>
+	<div class="footer"> copy right &copy;2021</div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
