@@ -2,12 +2,10 @@
 
 function formSubmit() {
 	if(validate()){
-		console.log(2)
 		let formData = readFormData();
 		if(selectedRow == null){
 			insertNewRecord(formData)
 		}else{
-			console.log(1)
 			updateRecord(formData)
 		}
 		resetForm()
